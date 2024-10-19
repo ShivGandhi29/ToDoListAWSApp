@@ -1,6 +1,7 @@
 import json
 import boto3
 from boto3.dynamodb.conditions import Key
+#imports are used in the AWS Lambda editor
 
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('ToDoItems')
